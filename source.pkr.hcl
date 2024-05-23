@@ -8,7 +8,7 @@ source "hyperv-iso" "hyperv" {
   disk_size          = "512"
   enable_secure_boot = false
   generation         = 2
-  http_directory     = "http"
+  http_directory     = "ressources/http"
   http_port_max      = "8080"
   http_port_min      = "8080"
   iso_checksum       = "sha256:366317d854d77fc5db3b2fd774f5e1e5db0a7ac210614fd39ddb555b09dbb344"
