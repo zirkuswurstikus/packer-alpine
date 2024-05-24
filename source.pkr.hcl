@@ -33,8 +33,8 @@ build {
   }
 
   post-processor "vagrant" {
-    keep_input_artifact  = true	// DEFAULT false
-    output               = "ALPINE_319_VIRTAMD64_{{ .Provider }}.box"
+    keep_input_artifact  = false	// DEFAULT false
+    output               = "out/ALPINE_319_VIRTAMD64_{{ .Provider }}.box"
     #vagrantfile_template = "ressources/configs/ALPINE_319_VIRTAMD64_BASE.vagrantfile.template"
   }
 

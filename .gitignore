@@ -1,4 +1,4 @@
 packerlog.txt
 .vagrant/
-output-hyperv/
+out/
 packer_cache/
